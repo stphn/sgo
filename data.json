@@ -1,0 +1,25 @@
+{
+  "*": {
+    "lang": "en",
+    "url": "",
+    "site": "Skeleton",
+    "title": "",
+    "description": "",
+    "twitter": "",
+    "opengraph": "assets/images/og.jpg",
+    "favicon": "assets/images/favicon.ico",
+    "styles": [
+      "assets/bower/normalize-css/normalize.css",
+      "assets/bower/basicLightbox/dist/basicLightbox.min.css",
+      "assets/styles/main.css"
+    ],
+    "scripts": [
+      "//assets.codepen.io/assets/embed/ei.js",
+      "assets/bower/basicLightbox/dist/basicLightbox.min.js",
+      "assets/scripts/main.js"
+    ]
+  },
+  "index": {
+    "title": "Home"
+  }
+}

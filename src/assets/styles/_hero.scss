@@ -1,0 +1,16 @@
+.hero {
+    padding-top: $headerHeight;
+    background: linear-gradient(to right, #688A85 0%, #8FBDBD 100%);
+    height:400px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    &__svg {
+      width: 40%;
+      position: absolute;
+      bottom: -11px;
+      z-index: 1;
+      svg {width: 100%;}
+    }
+
+}

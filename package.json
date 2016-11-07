@@ -1,0 +1,27 @@
+{
+  "name": "skeleton",
+  "version": "1.15.1",
+  "description": "A front-end template build upon Rosid",
+  "private": true,
+  "authors": [
+    "Tobias Reich <tobias@electerious.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/electerious/Skeleton.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "preinstall": "bower install",
+    "start": "rosid serve src/",
+    "compile": "rosid compile src/ dist/ -i '**/_*' -i '**/.bower.json' -i '**/assets/includes'"
+  },
+  "dependencies": {
+    "gsap": "^1.19.0",
+    "rosid": "^4.0.3",
+    "rosid-handler-ejs": "^3.0.0",
+    "rosid-handler-js": "^3.0.0",
+    "rosid-handler-scss": "^2.0.0"
+  },
+  "devDependencies": {}
+}
