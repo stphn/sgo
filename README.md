@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Skeleton
 
 Jump-start your front-end development. Skeleton is a HTML5 Boilerplate build upon [Rosid](https://github.com/electerious/Rosid).
@@ -81,3 +82,7 @@ docker run --rm -tv $(pwd)/dist:/dist electerious/skeleton
 - Check if the project depends on the newest version of [Rosid](https://github.com/electerious/Rosid)
 - Try to compile the site using the included [Dockerfile](#docker)
 - Fix your [npm permissions](https://docs.npmjs.com/getting-started/fixing-npm-permissions) when receiving an EACCES error
+=======
+# sgo
+personal portfolio
+>>>>>>> 085fade6137886d7b925e14113fc3de45be4bd75
