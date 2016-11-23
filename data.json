@@ -8,6 +8,7 @@
     "twitter": "",
     "opengraph": "assets/images/og.jpg",
     "favicon": "assets/images/favicon.ico",
+    "hero": "",
     "styles": [
       "assets/bower/normalize-css/normalize.css",
       "assets/bower/basicLightbox/dist/basicLightbox.min.css",
@@ -15,11 +16,27 @@
     ],
     "scripts": [
       "//assets.codepen.io/assets/embed/ei.js",
+
+      "assets/bower/gsap/src/uncompressed/TweenMax.js",
+      "assets/bower/scrollmagic/scrollmagic/uncompressed/ScrollMagic.js",
+      "assets/bower/scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap.js",
+      "assets/bower/scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators.js",
       "assets/bower/basicLightbox/dist/basicLightbox.min.js",
+      "assets/bower/shine/dist/shine.min.js",
       "assets/scripts/main.js"
     ]
   },
-  "index": {
-    "title": "Home"
+  "index" : {
+    "title": "Home",
+    "description": "",
+    "hero" : {
+      "description": "I’m a <strong>French Coder & Designer</strong> living in Germany. I’m currently working as a Senior UI/UX Architect at comwrap",
+      "logo": "url(assets/images/logo.svg)"
+    },
+    "sections" : {
+      "dribbble" : "PIXELS, VECTORS AND DIGITAL ARTS",
+      "codepen" : "CODING AND PROTOTYPING",
+      "sketchfab" : "VOXELS, POLYGONS AND THINGS IN 3 DIMENSIONS"
+    }
   }
 }

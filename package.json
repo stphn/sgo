@@ -17,7 +17,6 @@
     "compile": "rosid compile src/ dist/ -i '**/_*' -i '**/.bower.json' -i '**/assets/includes'"
   },
   "dependencies": {
-    "gsap": "^1.19.0",
     "rosid": "^4.0.3",
     "rosid-handler-ejs": "^3.0.0",
     "rosid-handler-js": "^3.0.0",

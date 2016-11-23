@@ -11,7 +11,7 @@ $colors: (
 
 // Sizes ------------------------------------------------------- //
 $gutter   : 1.8rem;
-$maxWidth : 1200px;
+$maxWidth : 100%;
 $headerHeight: 80px;
 
 // Breakpoints ------------------------------------------------- //
@@ -28,7 +28,7 @@ $duration : .3s;
 $timing   : cubic-bezier(.51, .92, .24, 1);
 
 // Typography -------------------------------------------------- //
-$fontFamily: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$fontFamily: 'DINNextLTPro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 // Font -------------------------------------------------------- //
 $fontStack: normal 400 16px/1.6 $fontFamily;

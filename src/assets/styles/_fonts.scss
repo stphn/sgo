@@ -1,0 +1,5 @@
+
+//Including a font with different weights:
+@include fontFace('DINNextLTPro', '../fonts/DINNextLTPro-Bold', normal, bold);
+@include fontFace('DINNextLTPro', '../fonts/DINNextLTPro-Medium', normal, 500);
+@include fontFace('DINNextLTPro', '../fonts/DINNextLTPro-Light', normal, 300);
